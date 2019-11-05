@@ -1,0 +1,36 @@
+:root {
+    --white: #ffffff;
+    --grey: #5d5d5d;
+    --black: #1a1a1a;
+    --green: #4bde1e;
+}
+
+.navbar
+{
+    background-color: #1a1a1a !important;
+}
+
+.dropdown-menu {
+    background-color: var(--grey);
+    border-radius: 0px;
+}
+
+.dropdown-item {
+    color: rgba(255, 255, 255, .5);
+}
+
+.dropdown-item:hover {
+    color: rgb(255, 255, 255, .75);
+}
+
+.navbar-text {
+    display: inline-flex;
+    margin: 0;
+    line-height: 2rem;
+}
+
+@media only screen and (max-width: 370px) {
+    .navbar-text {
+        display: none;
+    }
+}
